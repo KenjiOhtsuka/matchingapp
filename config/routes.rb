@@ -3,5 +3,11 @@ Rails.application.routes.draw do
   root 'top#index'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  resources :usets, only: [:index, :show]
+  resources :users, only: [:index, :show]
+
+  resources :reactions, only: [:create]
+
+  resources :matching, only: %i(index)
+
+  resources :chat, only: %i(create show)
 end

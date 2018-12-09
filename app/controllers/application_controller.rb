@@ -4,6 +4,8 @@ class ApplicationController < ActionController::Base
 
   protected
 
+  # deviseでは、デフォルトだとemailとpasswordカラムしか保存したり、更新することができない。
+  # デフォルトにないnameカラムなどの情報を更新できるように以下のコードを追加
   def configure_permitted_parameters
     devise_parameter_sanitizer.permit(:sign_up, keys: %i(name self_introduction sex img_name))
     devise_parameter_sanitizer.permit(:account_update, keys: %i(name self_introduction sex img_name))
@@ -12,5 +14,5 @@ class ApplicationController < ActionController::Base
   def after_sign_in_path_for(resource)
     users_path
   end
-  
+
 end
