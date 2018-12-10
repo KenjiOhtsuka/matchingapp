@@ -7,7 +7,8 @@ ja:
 #      already_confirmed: "was already confirmed"
       not_locked: "は凍結されていません"
 #      not_locked: "was not locked"
-
+      not_saved: 保存できませんでした
+      
   devise:
     failure:
       unauthenticated: 'ログインしてください。'
@@ -61,4 +62,3 @@ ja:
       unlock_instructions:
         subject: 'アカウントの凍結解除'
 #        subject: 'Unlock Instructions'
-
