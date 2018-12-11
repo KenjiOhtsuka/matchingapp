@@ -14,7 +14,9 @@ User.create!(
   name: 'オリバー',
   self_introduction: 'オリバーです',
   sex: 0,
-  img_name: open("#{Rails.root}/db/dummy_img/1.jpg")
+  img_name: open("#{Rails.root}/db/dummy_img/1.jpg"),
+  educational_background: 0,
+  income: 0
 )
 User.create!(
   email: 'user2@example.com',
@@ -22,7 +24,9 @@ User.create!(
   name: 'ハリー',
   self_introduction: 'ハリーです',
   sex: 0,
-  img_name: open("#{Rails.root}/db/dummy_img/2.jpg")
+  img_name: open("#{Rails.root}/db/dummy_img/2.jpg"),
+  educational_background: 0,
+  income: 0
 )
 User.create!(
   email: 'user3@example.com',
@@ -30,7 +34,9 @@ User.create!(
   name: 'オリヴィア',
   self_introduction: 'オリヴィアです',
   sex: 1,
-  img_name: open("#{Rails.root}/db/dummy_img/3.jpg")
+  img_name: open("#{Rails.root}/db/dummy_img/3.jpg"),
+  educational_background: 0,
+  income: 0
 )
 User.create!(
   email: 'user4@example.com',
@@ -38,5 +44,7 @@ User.create!(
   name: 'リリー',
   self_introduction: 'リリーです',
   sex: 1,
-  img_name: open("#{Rails.root}/db/dummy_img/4.jpg")
+  img_name: open("#{Rails.root}/db/dummy_img/4.jpg"),
+  educational_background: 0,
+  income: 0
 )

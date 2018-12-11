@@ -43,6 +43,16 @@
           <%= f.radio_button :sex, "女", class: "form-check-input", id: "inlineRadio2" %>
           <label class="form-check-label" for="inlineRadio2">女</label>
         </div>
+        <!-- 学歴追加 -->
+        <div class="">
+          <div><label for=''>学歴</label></div>
+          <%= f.select(:educational_background, [["未回答"], ['高校卒業'],['専門学校卒業'],['大学卒業']]) %>
+        </div>
+        <!-- 年収追加 -->
+        <div class="">
+          <div><label for=''>年収</label></div>
+          <%= f.select(:income, [["公開しない"], ['200 ~ 300万円'],['300 ~ 500万円'],['500 ~ 1000万円'],['1,000万円以上']]) %>
+        </div>
       </div>
       <div class="form-group">
         <label>自己紹介文</label>
