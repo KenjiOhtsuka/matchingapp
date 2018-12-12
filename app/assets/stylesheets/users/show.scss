@@ -32,6 +32,39 @@
       font-size: 30px;
     }
 
+    ul, ol{
+      color: #668ad8;/*文字色*/
+      border: dashed 2px #668ad8;/*破線 太さ 色*/
+      background: #f1f8ff; /*背景色*/
+      padding: 0.5em 0.5em 0.5em 2em;
+    }
+
+    ul li, ol li {
+      line-height: 1.5;
+      padding: 0.5em 0;
+    }
+
+
+
+
+
+    &_sex {
+      background-color: red;
+
+    }
+
+    &_educational_background {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 30px;
+    }
+
+    &_income {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 30px;
+    }
+
     &_selfIntroduction {
       margin-top: 30px;
     }
@@ -62,4 +95,17 @@
       }
     }
   }
+}
+.box29 {
+    margin: 2em 0;
+    background: #dcefff;
+}
+.box29 .box-title {
+    font-size: 1.2em;
+    background: #5fb3f5;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
 }

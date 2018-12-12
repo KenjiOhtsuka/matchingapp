@@ -9,11 +9,16 @@
       <div class='userInfo_img'>
         <%= image_tag @user.img_name.url(:thumb) %>
       </div>
-      <div class='userInfo_name'><%= @user.name%></div>
-      <div class='userInfo_name'><%= @user.sex%></div>
-      <div class='userInfo_name'><%= @user.educational_background%></div>
-      <div class='userInfo_name'><%= @user.income%></div>
-      <div class='userInfo_selfIntroduction'><%= @user.self_introduction %></div>
+      <div class='userInfo_name'>名前: <%= @user.name%></div>
+        <div class="box29">
+          <div class="box-title"><%= @user.name%>の情報</div>
+        </div>
+      <ul>
+        <li>性別: <%= @user.sex%></li>
+        <li>学歴: <%= @user.educational_background%></li>
+        <li>年収: <%= @user.income%></li>
+        <li>自己紹介: <%= @user.self_introduction %></li>
+      </ul>
     </div>
     <% if current_user.id == @user.id %>
       <div class='userAction'>
