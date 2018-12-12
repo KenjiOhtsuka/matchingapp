@@ -10,6 +10,9 @@
         <%= image_tag @user.img_name.url(:thumb) %>
       </div>
       <div class='userInfo_name'><%= @user.name%></div>
+      <div class='userInfo_name'><%= @user.sex%></div>
+      <div class='userInfo_name'><%= @user.educational_background%></div>
+      <div class='userInfo_name'><%= @user.income%></div>
       <div class='userInfo_selfIntroduction'><%= @user.self_introduction %></div>
     </div>
     <% if current_user.id == @user.id %>
