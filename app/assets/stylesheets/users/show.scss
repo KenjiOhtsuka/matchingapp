@@ -12,6 +12,16 @@
         }
       }
     }
+    &_logo_2 {
+      margin-right: 50px;
+      & > a {
+        width: 50px;
+        display: block;
+        & > img {
+          width: 100%;
+        }
+      }
+    }
   }
 
   .userInfo {

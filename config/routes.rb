@@ -10,4 +10,7 @@ Rails.application.routes.draw do
   resources :matching, only: %i(index)
 
   resources :chat, only: %i(create show)
+
+  resources :searches, only: %i(new index)
+
 end

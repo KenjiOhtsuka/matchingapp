@@ -1,0 +1,6 @@
+<% @match_users.each do |match_user| %>
+  <li data-user_id="<%= match_user.id %>">
+    <div class="userName"><%= match_user.name %></div>
+    <%= image_tag match_user.img_name.url(:thumb) %>
+  </li>
+<% end %>
