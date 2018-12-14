@@ -36,7 +36,7 @@ html, body {
         overflow: hidden;
         text-align: center;
         padding: 10px 10px 10px 10px;
-        background: #eee;
+        background: white;
         font-size: 24px;
         color: #000;
         border: 1px solid #fff;
@@ -50,12 +50,39 @@ html, body {
         backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
         .userName {
-          position: absolute;
           bottom: 5px;
-          color: #fff;
+          color: #000000;
           z-index: 100;
           text-shadow: 0 2px 4px rgba(0,0,0,.5);
         }
+        .userSelfIntroduction p {
+            margin: 0;
+            padding: 0;
+        }
+        .userSelfIntroduction{
+          margin-top: 39vh;
+          position: relative;
+          color: #343a40;/*文字色*/
+          border: dashed 2px #fd505052;/*破線 太さ 色*/
+          background: #fd50500f; /*背景色*/
+          padding: 0.5em 0.5em 0.5em 2em;
+        }
+
+
+        // .box1 {
+        //     padding: 0.5em 1em;
+        //     margin: 2em 0;
+        //     font-weight: bold;
+        //     border: solid 3px #000000;
+        // }
+        // .box1 p {
+        //     margin: 0;
+        //     padding: 0;
+        // }
+
+
+
+
         img {
           position: absolute;
           left: 50%;

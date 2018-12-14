@@ -10,8 +10,9 @@
     <ul>
       <% @users.each do |user| %>
         <li data-user_id="<%= user.id %>">
-          <div class="userName"><%= user.name %></div>
+          <div class="userName">NAME:  <%= user.name %></div>
           <%= image_tag user.img_name.url(:thumb) %>
+          <div class="userSelfIntroduction"><p><i class="fas fa-file-signature"></i><%= user.self_introduction %><br><i class="fas fa-hand-holding-usd"></i> 年収: <%= user.income %></p></div>
           <div class="like"></div>
           <div class="dislike"></div>
         </li>

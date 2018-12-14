@@ -9,12 +9,13 @@
   <div id="tinderslide">
     <ul>
       <% @match_users.each do |match_user| %>
-        <li data-user_id="<%= match_user.id %>">
-          <div class="userName"><%= match_user.name %></div>
-          <%= image_tag match_user.img_name.url(:thumb) %>
-          <div class="like"></div>
-          <div class="dislike"></div>
-        </li>
+      <li data-user_id="<%= match_user.id %>">
+        <div class="userName">NAME:  <%= match_user.name %></div>
+        <%= image_tag match_user.img_name.url(:thumb) %>
+        <div class="userSelfIntroduction"><p><i class="fas fa-file-signature"></i><%= match_user.self_introduction %><br><i class="fas fa-hand-holding-usd"></i> 年収: <%= match_user.income %></p></div>
+        <div class="like"></div>
+        <div class="dislike"></div>
+      </li>
       <% end %>
     </ul>
     <div class="noUser">近くにお相手がいません。</div>
