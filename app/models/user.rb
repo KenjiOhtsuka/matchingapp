@@ -2,6 +2,7 @@ class User < ApplicationRecord
   validates :img_name, presence: true
   has_many :chat_messages
   has_many :chat_room_users
+  has_many :reactions
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
