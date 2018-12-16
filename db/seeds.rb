@@ -103,7 +103,7 @@ User.create!(
   password: 'aaaaaaaa',
   name: 'ボブ',
   self_introduction: '日本在住の米兵です。',
-  sex: 1,
+  sex: 0,
   img_name: open("#{Rails.root}/db/dummy_img/10.jpg"),
   educational_background: 2,
   income: 4
@@ -113,7 +113,7 @@ User.create!(
   password: 'aaaaaaaa',
   name: 'ロム',
   self_introduction: '外資系銀行で営業してます。',
-  sex: 1,
+  sex: 0,
   img_name: open("#{Rails.root}/db/dummy_img/11.jpg"),
   educational_background: 1,
   income: 1
@@ -123,7 +123,7 @@ User.create!(
   password: 'aaaaaaaa',
   name: 'クリス',
   self_introduction: '早稲田に交換留学できてます。アメリカ出身です。',
-  sex: 1,
+  sex: 0,
   img_name: open("#{Rails.root}/db/dummy_img/12.jpg"),
   educational_background: 2,
   income: 2
@@ -133,7 +133,7 @@ User.create!(
   password: 'aaaaaaaa',
   name: 'リリー',
   self_introduction: 'サーフィンが大好きです。',
-  sex: 1,
+  sex: 0,
   img_name: open("#{Rails.root}/db/dummy_img/13.jpg"),
   educational_background: 1,
   income: 4
@@ -143,7 +143,7 @@ User.create!(
   password: 'aaaaaaaa',
   name: 'ムーラ',
   self_introduction: '一緒にアウトドアできれば最高です、',
-  sex: 1,
+  sex: 0,
   img_name: open("#{Rails.root}/db/dummy_img/14.jpg"),
   educational_background: 0,
   income: 0
