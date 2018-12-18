@@ -11,6 +11,6 @@ Rails.application.routes.draw do
 
   resources :chat, only: %i(create show)
 
-  resources :searches, only: %i(new index)
+  resources :searches, only: %i(new index show)
 
 end

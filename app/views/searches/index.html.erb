@@ -2,7 +2,7 @@
   <ul>
     <% @match_users.each do |match_user| %>
     <li data-user_id="<%= match_user.id %>">
-      <div class="userName">NAME:  <%= match_user.name %></div>
+      <div class="userName">NAME:  <%= link_to match_user.name, search_path(match_user.id) %></div>
       <%= image_tag match_user.img_name.url(:thumb) %>
       <div class="userSelfIntroduction"><p><i class="fas fa-file-signature"></i><%= match_user.self_introduction %><br>
         <i class="fas fa-school"></i></i> 学歴: <%= match_user.educational_background %><br>
