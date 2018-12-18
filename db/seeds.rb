@@ -148,3 +148,146 @@ User.create!(
   educational_background: 0,
   income: 0
 )
+
+User.create!(
+  email: 'user15@example.com',
+  password: 'aaaaaaaa',
+  name: 'さとみ',
+  self_introduction: '料理が趣味です',
+  sex: 1,
+  img_name: open("#{Rails.root}/db/dummy_img/15.jpg"),
+  educational_background: 0,
+  income: 0
+)
+
+User.create!(
+  email: 'user16@example.com',
+  password: 'aaaaaaaa',
+  name: '聡子',
+  self_introduction: '真剣亜出会い探してます',
+  sex: 1,
+  img_name: open("#{Rails.root}/db/dummy_img/16.jpg"),
+  educational_background: 1,
+  income: 1
+)
+
+User.create!(
+  email: 'user17@example.com',
+  password: 'aaaaaaaa',
+  name: 'ヨガ',
+  self_introduction: 'ヨガが大好きです',
+  sex: 1,
+  img_name: open("#{Rails.root}/db/dummy_img/17.jpg"),
+  educational_background: 2,
+  income: 2
+)
+
+User.create!(
+  email: 'user18@example.com',
+  password: 'aaaaaaaa',
+  name: 'ムーミン',
+  self_introduction: '日本在住10年目です。',
+  sex: 1,
+  img_name: open("#{Rails.root}/db/dummy_img/18.jpg"),
+  educational_background: 3,
+  income: 3
+)
+
+User.create!(
+  email: 'user19@example.com',
+  password: 'aaaaaaaa',
+  name: '聡子',
+  self_introduction: '一緒に写真撮りに行きましょう',
+  sex: 1,
+  img_name: open("#{Rails.root}/db/dummy_img/19.jpg"),
+  educational_background: 1,
+  income: 3
+)
+
+User.create!(
+  email: 'user20@example.com',
+  password: 'aaaaaaaa',
+  name: '明子',
+  self_introduction: '自撮りが大好きです',
+  sex: 1,
+  img_name: open("#{Rails.root}/db/dummy_img/20.jpg"),
+  educational_background: 2,
+  income: 4
+)
+
+User.create!(
+  email: 'user21@example.com',
+  password: 'aaaaaaaa',
+  name: 'ともみ',
+  self_introduction: '写真の撮り方教えてください',
+  sex: 1,
+  img_name: open("#{Rails.root}/db/dummy_img/21.jpg"),
+  educational_background: 2,
+  income: 3
+)
+
+User.create!(
+  email: 'user22@example.com',
+  password: 'aaaaaaaa',
+  name: 'たくみ',
+  self_introduction: '字が綺麗なのが特技です',
+  sex: 0,
+  img_name: open("#{Rails.root}/db/dummy_img/22.jpg"),
+  educational_background: 1,
+  income: 1
+)
+
+User.create!(
+  email: 'user23@example.com',
+  password: 'aaaaaaaa',
+  name: 'ときお',
+  self_introduction: '彼女欲しいです！',
+  sex: 0,
+  img_name: open("#{Rails.root}/db/dummy_img/23.jpg"),
+  educational_background: 0,
+  income: 0
+)
+
+User.create!(
+  email: 'user24@example.com',
+  password: 'aaaaaaaa',
+  name: 'ゆうた',
+  self_introduction: 'プレゼント用意して待ってます',
+  sex: 0,
+  img_name: open("#{Rails.root}/db/dummy_img/24.jpg"),
+  educational_background: 1,
+  income: 2
+)
+
+User.create!(
+  email: 'user25@example.com',
+  password: 'aaaaaaaa',
+  name: '滝見',
+  self_introduction: 'スケボーが趣味です。',
+  sex: 0,
+  img_name: open("#{Rails.root}/db/dummy_img/25.jpg"),
+  educational_background: 3,
+  income: 4
+)
+
+User.create!(
+  email: 'user26@example.com',
+  password: 'aaaaaaaa',
+  name: 'ともみ',
+  self_introduction: '写真の撮り方教えてください',
+  sex: 0,
+  img_name: open("#{Rails.root}/db/dummy_img/26.jpg"),
+  educational_background: 1,
+  income: 0
+)
+
+User.create!(
+  email: 'user27@example.com',
+  password: 'aaaaaaaa',
+  name: 'ベック',
+  self_introduction: 'エンジニアしてます',
+  sex: 0,
+  img_name: open("#{Rails.root}/db/dummy_img/27.jpg"),
+  educational_background: 0,
+  income: 1
+)

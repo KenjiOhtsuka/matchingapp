@@ -2,7 +2,6 @@ class UsersController < ApplicationController
   def index
     # [TODO]ここコントローラにメソッド書きすぎ、モデル側でメソッド書き換える
     all_sex_users = User.where.not(id: current_user.id)
-    all_sex_users.gender_check
     different_gender = all_sex_users.select do |other|
       current_user.sex != other.sex
     end

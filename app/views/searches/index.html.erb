@@ -4,7 +4,10 @@
     <li data-user_id="<%= match_user.id %>">
       <div class="userName">NAME:  <%= match_user.name %></div>
       <%= image_tag match_user.img_name.url(:thumb) %>
-      <div class="userSelfIntroduction"><p><i class="fas fa-file-signature"></i><%= match_user.self_introduction %><br><i class="fas fa-hand-holding-usd"></i> 年収: <%= match_user.income %></p></div>
+      <div class="userSelfIntroduction"><p><i class="fas fa-file-signature"></i><%= match_user.self_introduction %><br>
+        <i class="fas fa-school"></i></i> 学歴: <%= match_user.educational_background %><br>
+        <i class="fas fa-hand-holding-usd"></i> 年収: <%= match_user.income %>
+      </p></div>
     </li>
     <% end %>
   </ul>
