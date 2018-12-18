@@ -4,6 +4,7 @@ class SearchesController < ApplicationController
   end
 
   def index
+    # [FIXME]マスアサイメント対策する
     match_users_all_sex = User.where(educational_background: params[:educational_background]).where(income: params[:income])
     @match_users = match_users_all_sex.select do |other|
       current_user.sex != other.sex

@@ -1,5 +1,7 @@
 class User < ApplicationRecord
   validates :img_name, presence: true
+  validates :img_name, presence: true
+  validates :self_introduction, length: { maximum: 30 }
   has_many :chat_messages
   has_many :chat_room_users
   has_many :reactions

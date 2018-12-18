@@ -23,6 +23,7 @@ ja:
           # medium: 300 ~ 500万円
           # high: 500 ~ 1000万円
           # very_high: 1,000万円以上
+        self_introduction: 自己紹介
     errors:
       messages:
         record_invalid: "バリデーションに失敗しました: %{errors}"

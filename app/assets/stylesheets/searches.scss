@@ -1,3 +1,22 @@
 // Place all the styles related to the searches controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.search {
+  text-align: center;
+  ul {
+    padding-left: 0px;
+    li {
+      list-style:none;
+      .userName{
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        color: #2c2c2f;
+        background: #cde4ff;/*背景色*/
+      }
+      .img {
+        width: 100%;
+      }
+    }
+  }
+}
