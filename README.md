@@ -17,30 +17,18 @@ Match Box
 ### スワイプでLIKE/UNLIKEを送信
 <img src="https://github.com/hiroki12/matchingapp/blob/master/images/like:unlike.mov.gif?raw=true" width="350">
 
-
-
-
 ### CRUD機能
+<img src="https://github.com/hiroki12/matchingapp/blob/master/images/crud.mov.gif?raw=true" width="350">
+
 
 ### マッチイングした相手とのチャット
+<img src="https://github.com/hiroki12/matchingapp/blob/master/images/chat.mov.gif?raw=true" width="350">
+
 
 ### 条件検索で相手を検索
+<img src="https://github.com/hiroki12/matchingapp/blob/master/images/search.mov.gif?raw=true" width="350">
 
-
-## VS.
-
-## Requirement
-
-## Usage
-
-## Install
-
-## Contribution
-
-## Licence
-
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
-
-## Author
-
-[tcnksm](https://github.com/tcnksm)
+## 環境/Verion
+- Rails version 5.1.6.1
+- Ruby version 2.5.0
+- Git version 2.17.2
